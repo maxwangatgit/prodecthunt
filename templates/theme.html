@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="en">
-    {% load staticfiles %}
     
+    {% load staticfiles %}
+        
     <style type="text/css">
     pre{
     white-space: pre-wrap;
@@ -25,7 +26,7 @@
   <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#">
-                    <img src="{% static LOGO.PNG %}" height="20px"><!加载静态文件一定要在文件头进行加载>
+                    <img src="{% static "LOGO.png" %}" height="30px" <!加载静态文件一定要在文件头进行加载>
                     ProductHunt
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

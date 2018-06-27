@@ -124,5 +124,6 @@ STATIC_URL = '/static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static') # 收集到的图片最终的存放的路径
 STATIC_DIRS = [
-                os.path.join(BASE_DIR, 'prodecthunt/static'),  
+                # os.path.join(BASE_DIR, 'prodecthunt/static/'),  
+                # os.path.join(BASE_DIR, 'products/static/'),  
             ]  # 用来指定收集所有静态文件的路径
